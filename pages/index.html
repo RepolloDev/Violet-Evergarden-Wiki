@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title</title>
+    <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <!-- Libraries -->
+    <link rel="stylesheet" href="../utils/sanitize/sanitize.css" />
+    <link rel="stylesheet" href="../utils/bootstrap/bootstrap.min.css" />
+    <script src="../utils/bootstrap/bootstrap.min.js"></script>
+    <script src="../utils/animejs/anime.min.js"></script>
+  </head>
+  <body>
+    <h1 class="text-center">Hola mundo</h1>
+    <div style="width: 100px; height: 100px; background-color: red;" id="cube">A</span>
+  </body>
+  <script>
+    anime({
+      targets: '#cube',
+      translateX: 250,
+      scale: 2,
+      rotate: '1turn'
+    });
+  </script>
+</html>
