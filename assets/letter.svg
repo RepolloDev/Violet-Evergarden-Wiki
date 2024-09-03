@@ -41,6 +41,7 @@
     </clipPath>
   </defs>
   <g id="Group">
+    <path d="M0 400C0 179.086 179.086 0 400 0C620.914 0 800 179.086 800 400C800 620.914 620.914 800 400 800C179.086 800 0 620.914 0 400Z" id="Oval" fill="#E2D8CC" fill-rule="evenodd" stroke="none" />
     <g id="Letter" transform="matrix(0.9659258 -0.25881904 0.25881904 0.9659258 72.586945 302.41553)">
       <g id="Group">
         <g id="Rectangle">
