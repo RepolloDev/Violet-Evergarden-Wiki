@@ -34,7 +34,8 @@ El contenido formal de la página web se divide en varias páginas para explorar
 En el carpeta `./concepts` se encuentra toda la documentación del proceso que se realizo para desarrollar el proyecto, desde la parte de diseño, maquetación e implementación.
 
 1. [Conceptualización](./docs/1_Conceptalizacion.md)
-1. [Entorno de trabajo](./docs/2_Entorno_de_trabajo.md)
+2. [Entorno de trabajo](./docs/2_Entorno_de_trabajo.md)
+3. [Despliegue](./docs/3_Despliegue.md)
 
 ### 🧰 Herramientas
 
