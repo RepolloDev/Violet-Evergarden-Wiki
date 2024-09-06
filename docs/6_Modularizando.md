@@ -53,9 +53,9 @@ componente.
 .
 ├── 🧩 components
 │   ├── 🖼️ image
-│   │   ├── image.html
-│   │   ├── image.css
-│   │   └── image.js (opcional)
+│   │   ├── index.html
+│   │   ├── index.css
+│   │   └── index.js (opcional)
 ...
 ```
 
@@ -87,7 +87,7 @@ estructura:
     <script src="/scripts/global.js"></script>
     ...
     <!-- Components Styles -->
-    <link rel="stylesheet" href="/components/image/image.css" />
+    <link rel="stylesheet" href="/components/image/index.css" />
     ...
     <!-- Local Styles -->
     <link rel="stylesheet" href="./assets/index.css" />
@@ -96,7 +96,7 @@ estructura:
     ...
   </body>
   <!-- Components Scripts -->
-  <script src="/components/image/image.js"></script>
+  <script src="/components/image/index.js"></script>
   ...
   <!-- Local Scripts -->
   <script src="./assets/index.js"></script>
