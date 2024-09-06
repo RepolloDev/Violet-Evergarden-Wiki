@@ -13,8 +13,8 @@ Tras analizar la **estructura de proyectos** de algunos Frameworks y preguntar a
 ```bash
 📦 "Violet Evergarden Wiki"
  ┣ 📂assets
- ┃ ┣ 📂styles
- ┃ ┗ 📂js
+ ┣ 📁 scripts
+ ┣ 📁 styles
  ┣ 📂docs
  ┣ 📂lib
  ┣ 📂 pages

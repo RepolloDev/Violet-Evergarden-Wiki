@@ -1,0 +1,71 @@
+:root {
+  --primary: #a6c856;
+  --secondary: #80bfcb;
+  --accent: #fe822f;
+
+  --base-100: #fbfbf2;
+  --base-200: #e5e6e4;
+  --base-300: #cfd2cd;
+  --base-content: #131523;
+
+  --neutral: #34312d;
+  --neutral-content: #fbfbf2;
+
+  --red: #b24341;
+  --orange: #d98c46;
+  --yellow: #fcbf49;
+  --green: #6a994e;
+  --blue: #0077b6;
+  --purple: #9381ff;
+  --brown: #6c584c;
+
+  --info: #00b5ff;
+  --success: #00a96e;
+  --warning: #ffbe00;
+  --error: #ff5861;
+
+  /* Bootstrap variables */
+  --bs-primary: var(--primary);
+  --bs-secondary: var(--secondary);
+  --bs-primary-rgb: 166, 200, 86;
+  --bs-secondary-rgb: 128, 191, 203;
+
+  --bs-success: var(--success);
+  --bs-info: var(--info);
+  --bs-warning: var(--warning);
+  --bs-danger: var(--error);
+  --bs-success-rgb: 0, 169, 110;
+  --bs-info-rgb: 0, 181, 255;
+  --bs-warning-rgb: 255, 190, 0;
+  --bs-danger-rgb: 255, 88, 97;
+
+  --bg-red: var(--red);
+  --bg-orange: var(--orange);
+  --bg-yellow: var(--yellow);
+  --bg-green: var(--green);
+  --bg-blue: var(--blue);
+  --bg-purple: var(--purple);
+}
+
+.dark {
+  --primary: #87a937;
+  --secondary: #34727f;
+  --accent: #d05401;
+
+  --base-100: #11151c;
+  --base-200: #0c0c04;
+  --base-300: #04151f;
+  --base-content: #fbfbf2;
+
+  /* Bootstrap variables */
+  --bs-primary: var(--primary);
+  --bs-secondary: var(--secondary);
+  --bs-primary-rgb: 135, 169, 55;
+  --bs-secondary-rgb: 52, 114, 127;
+  --bg-red: var(--red);
+  --bg-orange: var(--orange);
+  --bg-yellow: var(--yellow);
+  --bg-green: var(--green);
+  --bg-blue: var(--blue);
+  --bg-purple: var(--purple);
+}
