@@ -1,0 +1,8 @@
+@import url(./variables.css);
+@import url(./utils.css);
+@import url(./fonts.css);
+
+body {
+  background-color: var(--base-100);
+  font-family: 'Geist', sans-serif;
+}

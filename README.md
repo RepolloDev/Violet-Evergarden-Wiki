@@ -38,6 +38,9 @@ En el carpeta `./concepts` se encuentra toda la documentación del proceso que s
 3. [Despliegue](./docs/3_Despliegue.md)
 4. [La paleta perfecta](./docs/4_La_paleta_perfecta.md)
 5. [Creando contenido](./docs/5_Creando_contenido.md)
+6. [Modularizando](./docs/6_Modularizando.md)
+7. [Inspiración](./docs/7_Inspiracion.md)
+8. [Usando un servidor](./docs/8_Usando_un_servidor.md)
 
 ### 🧰 Herramientas
 
