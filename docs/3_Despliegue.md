@@ -30,7 +30,7 @@ crear una action o utilizar una _workflow_ ya existente.
 Para este caso, se utiliza el _Static HTML_.
 
 <p align='center'>
-    <img width='400' src='../assets/photos/3.1_despliegue.png'/>
+    <img width='400' src='../source/assets/photos/3.1_despliegue.png'/>
 </p>
 
 De esta manera, ya se tiene una forma de desplegar el
@@ -40,31 +40,7 @@ se desplegará el proyecto.
 
 ## 🤔 ¿Por qué ahora?
 
-La razón de hacer el despliegue ahora es porque pensaba
-en el problema que existiría si dejo este problema
-para el final. Pues por la estructura del proyecto
-no es tan sencillo hacer el despliegue.
+La razón de hacer el despliegue ahora es porque es una de las cosas más simples e importantes que se tiene para este tipo de proyecto.
 
-```bash
-# Estructura del proyecto
-├── assets
-├── docs
-├── pages
-```
-
-Como se puede ver, las páginas están en la carpeta
-`pages`, pero para que el despliegue funcione, se
-necesita que las páginas estén en la raíz del proyecto.
-Comenzando por el `index.html`.
-
-Entonces, buscando un poco dí con una solución que
-consiste en hacer una redirección en el `index.html`
-a la página principal `pages/index.html`.
-
-```bash
-# Estrucutra del proyecto
-├── assets
-├── docs
-├── pages
-├── index.html
-```
+> [!TIP]
+> Como el proyecto es completamente estático , no se necesita de un servidor para desplegarlo, por lo que se puede hacer de manera gratuita.

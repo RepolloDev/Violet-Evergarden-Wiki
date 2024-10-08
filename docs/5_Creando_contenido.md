@@ -28,20 +28,19 @@ se ha decidido **crear un primero los datos**.
 ```bash
 # Estructura de páginas
 .
-└── 📁 pages
-    ├── 🗃️ chapters
-    |   ├── 🔶 index.html
-    |   └── 📄 README.md
-    ├── 🗃️ characters
-    |   ├── 🔶 index.html
-    |   └── 📄 README.md
-    ├── 🗃️ specials
-    |   ├── 🔶 index.html
-    |   └── 📄 README.md
-    ├── 🗃️ stories
-    |   ├── 🔶 index.html
-    |   └── 📄 README.md
-    └── 🔶 index.html
+├── 🗃️ chapters
+|   ├── 🔶 index.html
+|   └── 📄 README.md
+├── 🗃️ characters
+|   ├── 🔶 index.html
+|   └── 📄 README.md
+├── 🗃️ specials
+|   ├── 🔶 index.html
+|   └── 📄 README.md
+├── 🗃️ stories
+|   ├── 🔶 index.html
+|   └── 📄 README.md
+└── 🔶 index.html
 ```
 
 Dado que no quiero separar el contenido del
@@ -60,7 +59,7 @@ manejará las páginas de la siguiente manera:
     ├── 🔶 index.html
     ├── 📄 README.md
     ├── ...subdirectorios
-    └── 🗃️ Violet-Evergarden
+    └── 🗃️ violet_evergarden
 ```
 
 El funcionamiento es bastante simple y funciona de manera

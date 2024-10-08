@@ -65,7 +65,7 @@ de herramientas como [Coolors](https://coolors.co/), [DaisyUI](https://daisyui.c
 <table>
     <tr>
         <td>
-            <img src='../assets/photos/4.1_la_paleta_perfecta.png'/>
+            <img src='../source/assets/photos/4.1_la_paleta_perfecta.png'/>
             <a href='https://www.realtimecolors.com/?colors=131523-fbfbf2-a6c856-80bfcb-fe822f&fonts=Inter-Inter'>
                 <kbd>
                     👆 Click para ver
@@ -73,7 +73,7 @@ de herramientas como [Coolors](https://coolors.co/), [DaisyUI](https://daisyui.c
             </a>
         </td>
         <td>
-            <img src='../assets/photos/4.2_la_paleta_perfecta.png'/>
+            <img src='../source/assets/photos/4.2_la_paleta_perfecta.png'/>
             <a href='https://www.realtimecolors.com/?colors=fbfbf2-11151c-87a937-34727f-d05401&fonts=Inter-Inter'>
                 <kbd>
                     👆 Click para ver
@@ -87,4 +87,8 @@ Por lo mostrado es más que evidente que la página implementará
 un modo oscuro y claro, con colores que se asemejan a los de la
 serie _Violet Evergarden_.
 
-> La paleta de colores se puede ver en el archivo `variables.css` en la carpeta [/assets/styles/variables.css](../assets/styles/variables.css)
+> [!NOTE]
+> La paleta de colores se puede ver en el archivo `variables.css` en la carpeta [/source/styles/variables.css](../source/styles/variables.css)
+
+> [!WARNING]
+> La paleta para un modo oscuro no es muy seguro de que se implemente, pero se deja como referencia para futuras actualizaciones.

@@ -12,27 +12,26 @@ Tras analizar la **estructura de proyectos** de algunos Frameworks y preguntar a
 
 ```bash
 📦 "Violet Evergarden Wiki"
- ┣ 📂assets
- ┣ 📁 scripts
- ┣ 📁 styles
- ┣ 📂docs
- ┣ 📂lib
- ┣ 📂 pages
+ ┣ 📁 docs/
+ ┣ 📦 source/
+ ┃ ┣ 📁 assets/
+ ┃ ┣ 📁 styles/
+ ┃ ┣ 📁 scripts/
+ ┃ ┣ 📁 utils/
+ ┣ 📄 chapters/
+ ┣ 📄 characters/
+ ┣ 📄 specials/
+ ┣ 📄 stories/
+ ┣ 🌐 index.html
  ┗ 📜README.md
 ```
 
 Algo simple que permite tener un orden en el proyecto y así poder trabajar de una manera cómoda, similar a lo que ofrece un Framework.
 
-## 🤖 Las tecnologías
-
-Como mencioné anteriormente, el proyecto se basa en el stack básico de Front-End, pero por los requerimientos del proyecto, se añadirá una librería extra estilizar el proyecto.
-
-- [x] Bootstrap
-- [x] AnimeJS
-- [x] SanitizeCSS
-- [ ] ReactJS (Posiblemente)
-
-Todas estas almacenadas en la carpeta `./lib` para tener un control sobre las librerías que se utilizan en el proyecto.
+> [!NOTE]
+> Esta estructura da más importancia al
+> despliegue de la página, razón por la que
+> las rutas están en la raíz del proyecto.
 
 ## 🐈‍⬛ Versionado
 

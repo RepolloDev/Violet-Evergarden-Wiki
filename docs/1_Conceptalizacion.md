@@ -18,14 +18,14 @@ Saber más o menos lo que quieres hacer y plasmarlo en un dibujo es la manera m�
 <p align='center'>
     <table>
         <tr>
-            <img src='../assets/photos/1.1_conceptualizacion.jpg'/>
+            <img src='../source/assets/photos/1.1_conceptualizacion.jpg'/>
         <tr/>
         <tr>
             <td>
-                <img src='../assets/photos/1.2_conceptualizacion.jpg'/>
+                <img src='../source/assets/photos/1.2_conceptualizacion.jpg'/>
             </td>
             <td>
-                <img src='../assets/photos/1.3_conceptualizacion.jpg'/>
+                <img src='../source/assets/photos/1.3_conceptualizacion.jpg'/>
             </td>
         </tr>
     </table>
@@ -41,10 +41,10 @@ Si estamos pensando en como sería el resultado final, por que no por la marca, 
     <table>
         <tr>
             <td>
-                <img width='300' src='../assets/dog.svg'/>
+                <img width='300' src='../source/assets/dog.svg'/>
             </td>
             <td>
-                <img width='300' src='../assets/favicon.svg'/>
+                <img width='300' src='../source/assets/favicon.svg'/>
             </td>
         </tr>
     </table>
