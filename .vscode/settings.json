@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "crismon",
+        "evergarden",
+        "Evergarden",
+        "wikipedia",
+        "wikiwand"
+    ],
+    "css.styleSheets": [
+        "source/styles/**/*.css",
+    ]
+}

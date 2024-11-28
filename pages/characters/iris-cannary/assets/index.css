@@ -1,0 +1,147 @@
+.main {
+  display: grid;
+  place-items: center;
+  padding: 2rem var(--px);
+}
+
+.main .heading {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: var(--h3-size);
+  font-weight: 700;
+}
+
+.main .ilustration {
+  width: 100%;
+  margin-bottom: 2rem;
+
+  img {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
+
+.main p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  font-size: var(--p1-size);
+}
+
+.main .gallery {
+  .heading {
+    display: block;
+    font-size: var(--h4-size);
+  }
+
+  .bento {
+    display: grid;
+    gap: 1rem;
+
+    img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    grid-template-rows: auto minmax(20rem auto) auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .heading {
+    grid-column: span 4;
+    grid-row: span 1;
+  }
+
+  .ilustration {
+    grid-column: span 2;
+    grid-row: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    height: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover !important;
+    }
+  }
+
+  p {
+    margin: 0 !important;
+  }
+
+  p:first-of-type {
+    grid-column: span 2;
+    grid-row: span 1;
+    height: 100%;
+  }
+
+  p:nth-of-type(2),
+  p:nth-of-type(3) {
+    grid-column: span 2;
+    grid-row: span 1;
+    place-self: start;
+  }
+
+  p:last-of-type {
+    grid-column: span 4;
+    grid-row: span 1;
+  }
+
+  .gallery {
+    grid-column: span 4;
+    grid-row: span 1;
+
+    .bento {
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 0.5fr 0.5fr;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    img:nth-of-type(1) {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    img:last-of-type {
+      grid-column: span 2;
+      grid-row: span 1;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main {
+    grid-template-rows: auto minmax(30rem, auto) auto auto;
+
+    .ilustration {
+      grid-column: span 2;
+    }
+
+    p:nth-of-type(1),
+    p:nth-of-type(2) {
+      grid-column: span 1;
+      place-self: start;
+    }
+
+    p:nth-of-type(3),
+    p:last-of-type {
+      grid-column: span 2;
+    }
+  }
+}

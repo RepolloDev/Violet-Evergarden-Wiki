@@ -1,0 +1,157 @@
+.extras {
+  padding: 2rem var(--px);
+}
+
+.extras .heading {
+  font-size: var(--h2-size);
+  font-weight: var(--h2-weight);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.extras .bento {
+  display: grid;
+  gap: 1rem;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    position: relative;
+    grid-row: span 1;
+    grid-column: span 4;
+    background: none;
+
+    &:hover .image {
+      transform: scale(1.05);
+      filter: brightness(0.8);
+    }
+
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: all 0.3s;
+    }
+
+    .extra-info {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.5);
+      color: var(--neutral-content);
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 0.8rem;
+
+      .title {
+        cursor: pointer;
+        font-size: var(--p1-size);
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        color: var(--neutral-content);
+        text-decoration: none;
+      }
+
+      .summary {
+        display: none;
+      }
+
+      .action {
+        display: none;
+      }
+    }
+  }
+
+  .info {
+    margin-bottom: 1rem;
+    align-items: center;
+    cursor: auto;
+
+    .description {
+      font-size: var(--p1-size);
+      text-align: center;
+      max-width: 50ch;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .extras {
+    padding-bottom: 5rem;
+  }
+
+  .extras .bento {
+    grid-template-rows: max-content 1fr 0.5fr;
+    grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+
+    .info {
+      grid-row: span 1;
+      grid-column: span 4;
+    }
+    .movie {
+      grid-row: span 1;
+      grid-column: span 2;
+    }
+
+    .ova {
+      grid-row: span 1;
+      grid-column: span 3;
+    }
+
+    .novel {
+      grid-row: span 1;
+      grid-column: span 1;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .extras .heading {
+    margin-bottom: 2rem;
+    text-align: start;
+  }
+
+  .extras .bento {
+    grid-template-rows: 1fr 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 1fr 1fr;
+
+    .item .extra-info .title {
+      font-size: var(--p2-size);
+    }
+
+    .info {
+      grid-row: span 1;
+      grid-column: span 1;
+      background: var(--primary-300);
+      justify-content: center;
+      padding: 1rem;
+      margin: 0;
+
+      .description {
+        font-size: var(--p2-size);
+        max-width: none;
+      }
+    }
+
+    .movie {
+      grid-row: span 3;
+      grid-column: span 1;
+    }
+
+    .ova,
+    .novel {
+      grid-row: span 1;
+      grid-column: span 1;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .extras {
+    padding-bottom: 7rem;
+  }
+}

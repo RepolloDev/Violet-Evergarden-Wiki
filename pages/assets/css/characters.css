@@ -1,0 +1,151 @@
+.characters {
+  padding: 4rem var(--px);
+  display: grid;
+  gap: 2rem;
+}
+
+.characters .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+
+  .heading {
+    display: none;
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .description {
+    font-size: var(--p1-size);
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 50ch;
+  }
+
+  .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .btn {
+      background-color: var(--accent-200);
+      font-size: var(--p1-size);
+      color: black;
+      padding: 0.8rem 1rem;
+      text-decoration: none;
+    }
+  }
+}
+
+.characters .decorator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  .heading {
+    font-size: var(--h2-size);
+    font-weight: var(--h2-weight);
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+
+    .item {
+      position: absolute;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.5s;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+
+    .item:nth-child(1) {
+      opacity: 1;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .characters {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 5rem;
+  }
+  .characters .content {
+    align-items: flex-start;
+    justify-content: center;
+    order: 1;
+
+    .heading {
+      display: block;
+      text-align: start;
+    }
+
+    .description {
+      text-align: start;
+    }
+
+    .actions {
+      width: 100%;
+      align-items: flex-start;
+    }
+  }
+
+  .characters .decorator {
+    .heading {
+      display: none;
+    }
+
+    .gallery {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .characters .content {
+    .actions {
+      .btn {
+        padding: 1rem 2rem;
+      }
+    }
+  }
+
+  .characters .decorator {
+    .gallery {
+      width: 450px;
+      height: 450px;
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .characters {
+    padding-bottom: 7rem;
+  }
+
+  .characters .decorator {
+    .gallery {
+      width: 500px;
+      height: 500px;
+    }
+  }
+}

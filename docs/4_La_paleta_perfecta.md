@@ -65,7 +65,7 @@ de herramientas como [Coolors](https://coolors.co/), [DaisyUI](https://daisyui.c
 <table>
     <tr>
         <td>
-            <img src='../source/assets/photos/4.1_la_paleta_perfecta.png'/>
+            <img src='./assets/4.1_la_paleta_perfecta.png'/>
             <a href='https://www.realtimecolors.com/?colors=131523-fbfbf2-a6c856-80bfcb-fe822f&fonts=Inter-Inter'>
                 <kbd>
                     👆 Click para ver
@@ -73,7 +73,7 @@ de herramientas como [Coolors](https://coolors.co/), [DaisyUI](https://daisyui.c
             </a>
         </td>
         <td>
-            <img src='../source/assets/photos/4.2_la_paleta_perfecta.png'/>
+            <img src='./assets/4.2_la_paleta_perfecta.png'/>
             <a href='https://www.realtimecolors.com/?colors=fbfbf2-11151c-87a937-34727f-d05401&fonts=Inter-Inter'>
                 <kbd>
                     👆 Click para ver

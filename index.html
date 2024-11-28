@@ -1,9 +1,520 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+    <link
+      rel="canonical"
+      href="https://repollodev.github.io/Violet-Evergarden-Wiki"
+    />
+    <meta name="author" content="@RepolloDev" />
+    <meta
+      name="keywords"
+      content="wiki, wikipedia, violet evergarden, anime, anime wiki, violet, evergarden, thematic web page, thematic design, web design, web development, wikiwand, fandom"
+    />
+    <title>Violet Evergarden - Wiki</title>
+    <meta
+      name="description"
+      content="Violet Evergarden Wiki es una página web temática que recopila información sobre la serie de anime Violet Evergarden. Vuelve a ver la serie con nosotros."
+    />
+    <link rel="stylesheet" href="/styles/global.css" />
+    <link rel="stylesheet" href="/pages/assets/css/index.css" />
+    <script src="/pages/assets/js/fade.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <!--! Header  -->
+    <header class="header">
+      <input type="checkbox" id="menu-controller" name="menu-controller" />
+      <!--** Header Bar -->
+      <div class="header-bar p-responsive">
+        <!-- Responsive menu and Logo -->
+        <div class="start">
+          <label id="menu-toggle" for="menu-controller">
+            <img src="/static/icons/menu-off.svg" class="off icon" />
+            <img src="/static/icons/menu-on.svg" class="on icon" />
+          </label>
+          <figure>
+            <img class="logo" src="/static/logo.svg" />
+          </figure>
+        </div>
+        <!-- Page options for large width -->
+        <nav class="center menu menu-horizontal">
+          <a href="/">Inicio</a>
+          <a href="#characters">Personajes</a>
+          <a href="#chapters">Capítulos</a>
+          <a href="#extras">Extras</a>
+          <a href="#news">Noticias</a>
+        </nav>
+        <!-- External options -->
+        <nav class="end actions">
+          <a
+            href="https://dorian-pike-610.notion.site/Violet-Evergarden-Wiki-129fa5acd16a80c89414f9d433e30ee0?pvs=74"
+          >
+            <img class="icon" src="/static/icons/notion-logo.svg" />
+          </a>
+          <a href="https://github.com/RepolloDev/Violet-Evergarden-Wiki">
+            <img class="icon" src="/static/icons/github-logo.svg" />
+          </a>
+        </nav>
+      </div>
+      <!--** Responsive Page options -->
+      <nav class="menu menu-vertical">
+        <a href="/">Inicio</a>
+        <a href="#characters">Personajes</a>
+        <a href="#chapters">Capítulos</a>
+        <a href="#extras">Extras</a>
+        <a href="#news">Noticias</a>
+      </nav>
+    </header>
+
+    <!--! Main Content -->
+
+    <main class="main">
+      <section id="hero" class="hero">
+        <div class="letter-border"></div>
+        <div class="content">
+          <div class="info">
+            <span class="phrase"> Las cartas dirigidas al corazón </span>
+            <h1 class="heading">Violet Evergarden</h1>
+            <p class="description">
+              Explora el mundo de Violet Evergarden, una historia de emociones
+              profundas y cartas que conectan corazones. Descubre personajes
+              inolvidables, capítulos cautivadores, películas conmovedoras y las
+              historias que dan vida a esta obra única. Sumérgete en su legado y
+              mantente al día con las últimas noticias.
+            </p>
+            <nav class="actions">
+              <a
+                href="https://www.netflix.com/bo/title/80182123"
+                class="btn netflix"
+              >
+                <img
+                  src="/static/icons/netflix-logo.svg"
+                  alt="Netflix Logo"
+                  class="icon"
+                />
+                <span>Ver en Netflix</span>
+              </a>
+              <a
+                href="https://www.youtube.com/watch?v=J6G-hwcASv8&t=42s"
+                class="btn youtube"
+              >
+                <img
+                  src="/static/icons/youtube-logo.svg"
+                  alt="YouTube Logo"
+                  class="icon"
+                />
+                <span>Ver Trailer</span>
+              </a>
+            </nav>
+          </div>
+          <div class="decorator">
+            <img
+              class="ilustration"
+              src="/pages/assets/images/ilustration.webp"
+            />
+            <img
+              class="stamp"
+              src="/pages/assets/images/stamp.webp"
+              alt="Estampilla especial de Violet Evergarden"
+            />
+            <p class="reference">
+              Las palabras que conectan corazones nunca se pierden, solo esperan
+              ser entregadas
+            </p>
+          </div>
+        </div>
+        <div class="awards">
+          <h3 class="heading">Franquicia de éxito</h3>
+          <p class="description">
+            Violet Evergarden ha sido nominada y ganadora de varios premios
+            importantes en la industria de la animación y el entretenimiento
+          </p>
+          <div class="gallery">
+            <figure class="item">
+              <img
+                class="image"
+                alt="Tokyo Anime Awards Festival"
+                src="/pages/assets/images/tokyo-anime-awards.webp"
+              />
+              <figcaption class="description">
+                Ganadora a animación del año del 2021
+              </figcaption>
+            </figure>
+            <figure class="item">
+              <img
+                class="image"
+                alt="Japan Academy Prize"
+                src="/pages/assets/images/japan-media-arts-awards.webp"
+              />
+              <figcaption class="description">
+                Nominada a Mejor Película de Animación 2020
+              </figcaption>
+            </figure>
+            <figure class="item">
+              <img
+                class="image"
+                alt="Anime Awards"
+                src="/pages/assets/images/anime-awards.webp"
+              />
+              <figcaption class="description">
+                Nominada al mejor anime del 2019
+              </figcaption>
+            </figure>
+            <figure class="item">
+              <img
+                class="image"
+                alt="IGN Awards"
+                src="/pages/assets/images/ign-awards.webp"
+              />
+              <figcaption class="description">
+                Ganadora a mejor animación del 2018
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="characters" class="characters">
+        <div class="content">
+          <h2 class="heading">Personajes</h2>
+          <p class="description">
+            Conoce a los personajes que dan vida al mundo de Violet Evergarden.
+            Cada uno, desde la propia Violet hasta aquellos cuyas vidas cambian
+            gracias a sus cartas, aporta profundidad y emoción a esta historia.
+            Explora sus historias, motivaciones y los lazos que los conectan en
+            este universo lleno de sentimientos y transformación.
+          </p>
+          <div class="actions">
+            <a class="btn" href="/pages/characters/">Conocer más</a>
+          </div>
+        </div>
+        <div class="decorator">
+          <h2 class="heading">Personajes</h2>
+          <div id="characters-gallery" class="gallery">
+            <a href="#" class="item">
+              <img
+                alt="Violet Evergarden"
+                src="/pages/assets/images/violet-evergarden.png"
+              />
+            </a>
+            <a href="#" class="item">
+              <img
+                alt="Gilbert Bougainvillea"
+                src="/pages/assets/images/gilbert-bougainvillea.png"
+              />
+            </a>
+            <a href="#" class="item">
+              <img
+                alt="Claudia Hodgins"
+                src="/pages/assets/images/claudia-hodgins.png"
+              />
+            </a>
+            <a href="#" class="item">
+              <img
+                alt="Cattleya Baudelaire"
+                src="/pages/assets/images/cattleya-baudelaire.png"
+              />
+            </a>
+            <a href="#" class="item">
+              <img
+                alt="Erica Brown"
+                src="/pages/assets/images/erica-brown.png"
+              />
+            </a>
+            <a href="#" class="item">
+              <img
+                alt="Benedic Blue"
+                src="/pages/assets/images/benedic-blue.png"
+              />
+            </a>
+            <a href="#" class="item">
+              <img
+                alt="Iris Cannary"
+                src="/pages/assets/images/iris-cannary.png"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="chapters" class="chapters">
+        <h2 class="heading">Capítulos</h2>
+        <div class="bento">
+          <a href="/pages/chapters/chapter_1/" class="item">
+            <img
+              class="image"
+              alt="Cover primer episodio de Violet Evergarden"
+              src="/pages/chapters/chapter_1/assets/cover.jpg"
+            />
+            <span class="chapter-info">
+              <span class="title">
+                "Te amo" y la muñeca de memoria automática</span
+              >
+              <span class="summary">
+                "Te amo" y la muñeca de memoria automática, se presenta a
+                Violet, una exsoldado que busca entender el significado de las
+                emociones humanas tras la guerra. Después de ser rescatada y
+                llevada al hospital, Hodgins, un coronel, le ofrece un trabajo
+                como Auto Memory Doll, encargada de escribir cartas. La
+                curiosidad de Violet se despierta cuando escucha la frase "te
+                amo" en una carta que otra Auto Memory Doll escribe para un
+                cliente. Motivada por las últimas palabras del Mayor Gilbert,
+                quien le dijo que la amaba antes de morir, Violet decide
+                convertirse en Auto Memory Doll para descubrir el verdadero
+                significado del amor y las emociones que estas palabras
+                conllevan.
+              </span>
+            </span>
+          </a>
+          <a href="/pages/chapters/chapter_2/" class="item">
+            <img
+              class="image"
+              alt="Cover segundo episodio de Violet Evergarden"
+              src="/pages/chapters/chapter_2/assets/cover.jpg"
+            />
+            <span class="chapter-info">
+              <span class="title">Nunca volverá</span>
+              <span class="summary">
+                Violet comienza su trabajo como Auto Memory Doll y se enfrenta a
+                su primer cliente, una mujer llamada Cattleya. La historia se
+                centra en la entrega de una carta a un hombre que está en el
+                frente de batalla. A medida que Violet trabaja en la carta, se
+                revela que el destinatario ha muerto, lo que provoca una
+                profunda reflexión sobre la pérdida y el dolor. A través de esta
+                experiencia, Violet empieza a comprender la tristeza y el
+                impacto emocional que las cartas pueden tener en las personas,
+                mientras sigue buscando entender su propia conexión con el amor
+                y la pérdida.
+              </span>
+            </span>
+          </a>
+          <a href="/pages/chapters/chapter_3/" class="item">
+            <img
+              class="image"
+              alt="Cover tercer episodio de Violet Evergarden"
+              src="/pages/chapters/chapter_3/assets/cover.jpg"
+            />
+            <span class="chapter-info">
+              <span class="title">Que seas una ejemplar Auto Memory Doll</span>
+              <span class="summary">
+                Violet comienza su entrenamiento formal como Auto Memory Doll.
+                Durante el curso, se enfrenta a varios desafíos y conoce a sus
+                compañeras, incluida Luculia, quien lucha con la presión de su
+                familia y la situación de su hermano veterano. A través de sus
+                interacciones, Violet aprende sobre la importancia de las
+                emociones en la escritura de cartas. A medida que avanza en su
+                formación, comienza a comprender mejor los sentimientos humanos
+                y cómo estos se reflejan en las palabras, lo que marca un paso
+                significativo en su desarrollo personal y profesional.
+              </span>
+            </span>
+          </a>
+          <a href="/pages/chapters/chapter_4/" class="item">
+            <img
+              class="image"
+              alt="Cover cuarto episodio de Violet Evergarden"
+              src="/pages/chapters/chapter_4/assets/cover.jpg"
+            />
+            <span class="chapter-info">
+              <span class="title"
+                >No serás una herramienta, sino una persona digna de ese
+                nombre</span
+              >
+              <span class="summary">
+                Violet acompaña a Iris a su pueblo para ayudarla a escribir
+                cartas para su cumpleaños. A través de sus interacciones, Iris
+                revela sus conflictos familiares y un amor no correspondido.
+                Violet, en su camino hacia la comprensión emocional, logra
+                plasmar los sentimientos de Iris en una carta de disculpas a sus
+                padres, demostrando su crecimiento como Auto Memory Doll.
+              </span>
+            </span>
+          </a>
+        </div>
+        <div class="info">
+          <p class="description">12 episodios de pura historia y emociones</p>
+          <span class="sub-description">
+            Conoce el desarrollo de la mejor Doll de Laiden
+          </span>
+          <div class="actions">
+            <a href="/pages/chapters/" class="btn">Ver todo</a>
+          </div>
+        </div>
+      </section>
+      <section id="extras" class="extras">
+        <h2 class="heading">Extras</h2>
+        <div class="bento">
+          <div class="item info">
+            <p class="description">
+              Descubre más sobre la franquicia de Violet Evergarden, entre
+              películas, la novel ligera y un especial de anime.
+            </p>
+          </div>
+          <figure class="item movie">
+            <img
+              alt="Cover"
+              class="image"
+              src="/pages/extras/the-movie/assets/cover.webp"
+            />
+            <figcaption class="extra-info">
+              <a href="/pages/extras/the-movie/" class="title"
+                >Violet Evergarden: The Movie</a
+              >
+              <p class="summary"></p>
+              <a class="action">Conocer más</a>
+            </figcaption>
+          </figure>
+          <figure class="item movie">
+            <img
+              alt="Cover"
+              class="image"
+              src="/pages/extras/eternity-and-the-auto-memory-doll/assets/cover.webp"
+            />
+            <figcaption class="extra-info">
+              <a
+                href="/pages/extras/eternity-and-the-auto-memory-doll/"
+                class="title"
+                >Violet Evergarden: Eternity and the Auto Memory Doll</a
+              >
+              <p class="summary"></p>
+              <a class="action">Conocer más</a>
+            </figcaption>
+          </figure>
+          <figure class="item ova">
+            <img
+              alt="Cover"
+              class="image"
+              src="/pages/extras/ova/assets/cover.webp"
+            />
+            <figcaption class="extra-info">
+              <a href="/pages/extras/ova/" class="title">Especial OVA</a>
+              <span class="summary"></span>
+              <a class="action">Conocer más</a>
+            </figcaption>
+          </figure>
+          <figure class="item novel">
+            <img
+              alt="Cover"
+              class="image"
+              src="/pages/extras/novel/assets/cover.webp"
+            />
+            <figcaption class="extra-info">
+              <a href="/pages/extras/novel/" class="title">Novela ligera</a>
+              <p class="summary"></p>
+              <a class="action">Conocer más</a>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section id="news" class="news">
+        <div class="info">
+          <h2 class="heading">Noticias</h2>
+          <p class="description">
+            Mantente al día con las últimas novedades de Violet Evergarden:
+            lanzamientos, eventos especiales y todo lo relacionado con este
+            universo inolvidable. Desde nuevos proyectos hasta curiosidades
+            detrás de escena, esta sección es tu ventana al legado vivo de esta
+            obra maestra.
+          </p>
+        </div>
+        <div class="container">
+          <div class="item">
+            <img class="cover" src="/pages/assets/images/new-1.jpg" />
+            <div class="content">
+              <a
+                href="https://somoskudasai.com/noticias/cultura-otaku/violet-evergarden-sigue-triunfando/"
+                class="title"
+                >Violet Evergarden sigue triunfando</a
+              >
+              <p class="summary">
+                La película “Violet Evergarden: The Movie” ha sido reconocida en
+                los primeros premios Dolby Cinema Japan Awards 2024 en la
+                categoría de Nuevo Anime, un galardón que celebra la excelencia
+                técnica en el uso de las tecnologías Dolby Vision y Dolby Atmos
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="cover" src="/pages/assets/images/new-2.jpg" />
+            <div class="content">
+              <a
+                href="https://somoskudasai.com/noticias/mercancia-de-anime/violet-evergarden-regresa-en-una-hermosa-figura-2/"
+                class="title"
+                >Violet Evergarden regresa en una hermosa figura</a
+              >
+              <p class="summary">
+                La reconocida fabricante de figuras HeRa Studio, en colaboración
+                con la distribuidora orzGK, ha anunciado una nueva figura que
+                promete encantar a los seguidores de la franquicia “Violet
+                Evergarden“. Esta pieza, fabricada en una impresionante escala
+                1/4.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <img class="cover" src="/pages/assets/images/new-3.webp" />
+            <div class="content">
+              <a
+                href="https://www.tycsports.com/gaming/como-se-veria-violet-evergarden-en-la-vida-real-segun-la-inteligencia-artificial-id590319.html"
+                class="title"
+                >Violet Evergarden en la vida real, según la Inteligencia
+                Artificial</a
+              >
+              <p class="summary">
+                La inteligencia artificial es desde su creación un elemento muy
+                utilizado para hacer diferentes preguntas difíciles de contestar
+                o crear imágenes y en esta oportunidad, le pedimos por una serie
+                de manga, convertida al animé.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--! Footer -->
+
+    <footer class="footer">
+      <!--** Logo and external options -->
+      <div class="start info">
+        <img class="logo" src="/static/logo.svg" />
+        <p class="description">
+          2024 <a href="https://github.com/RepolloDev">@RepolloDev</a> - Creado
+          con ♥️ para todos los fans
+        </p>
+      </div>
+      <div class="center references">
+        <span class="heading">Referencias</span>
+        <nav class="options">
+          <a
+            href="https://dorian-pike-610.notion.site/Violet-Evergarden-Wiki-129fa5acd16a80c89414f9d433e30ee0?pvs=74"
+          >
+            <img class="icon" src="/static/icons/notion-logo.svg" />
+            <span>Documentación</span>
+          </a>
+          <a href="https://github.com/RepolloDev/Violet-Evergarden-Wiki">
+            <img class="icon" src="/static/icons/github-logo.svg" />
+            <span>Repositorio</span>
+          </a>
+        </nav>
+      </div>
+      <div class="end newsletter">
+        <span class="heading">Newsletter</span>
+        <form class="form">
+          <label class="label" for="newsletter-email"
+            >Ingresa tu correo electrónico</label
+          >
+          <span class="input-container">
+            <input
+              id="newsletter-email"
+              type="email"
+              name="email"
+              placeholder="username@mail.com"
+            />
+            <button class="btn" type="submit">Suscribirse</button>
+          </span>
+        </form>
+      </div>
+    </footer>
+  </body>
 </html>

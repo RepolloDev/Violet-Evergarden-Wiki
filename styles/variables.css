@@ -1,0 +1,97 @@
+/** == THEME == **/
+:root {
+  --primary-300: #a6c856;
+  --primary-200: #eaf1d3;
+  --primary-100: #f6f8ea;
+
+  --secondary-300: #80bfcb;
+  --secondary-200: #d5e8e6;
+  --secondary-100: #eef4ed;
+
+  --accent-300: #fe822f;
+  --accent-200: #fab17a;
+  --accent-100: #f8d4b1;
+
+  --base-100: #f8f1ee;
+  --base-200: #ece6e4;
+  --base-300: #c4bfbd;
+  --base-content: #131523;
+
+  --neutral: #131523;
+  --neutral-content: #f8f1ee;
+
+  --info: #1dd3b0;
+  --success: #a7c957;
+  --warning: #ffd97d;
+  --error: #ee6055;
+  --special: #8367c7;
+}
+
+/** == TEXT == **/
+:root {
+  /* Headings */
+  --h1-size: 3rem;
+  --h1-weight: 700;
+
+  --h2-size: 2.5rem;
+  --h2-weight: 700;
+
+  --h3-size: 2rem;
+  --h3-weight: 700;
+
+  --h4-size: 1.5rem;
+  --h4-weight: 700;
+
+  /* Paragraph */
+  --p1-size: 1.2rem;
+  --p2-size: 1rem;
+  --p3-size: 0.8rem;
+  --p4-size: 0.6rem;
+}
+
+/* BOXES */
+
+:root {
+  --px: 5%;
+  --py: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --px: 7%;
+    --py: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --px: 5%;
+    --py: 2rem;
+  }
+
+  :root {
+    --p1-size: 1.25rem;
+    --p2-size: 1.1rem;
+    --p3-size: 0.9rem;
+    --p4-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    --px: 10%;
+    --py: 2rem;
+  }
+
+  :root {
+    --h1-size: 3.5rem;
+    --h2-size: 3rem;
+    --h3-size: 2.5rem;
+    --h4-size: 2rem;
+
+    --p1-size: 1.5rem;
+    --p2-size: 1.25rem;
+    --p3-size: 1rem;
+    --p4-size: 0.8rem;
+  }
+}

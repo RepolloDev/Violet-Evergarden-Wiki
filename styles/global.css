@@ -1,0 +1,15 @@
+@import url(./reset.css);
+@import url(./variables.css);
+@import url(./fonts.css);
+@import url(./layout.css);
+
+* {
+  font-family: "Cairo Variable", sans-serif;
+}
+
+body {
+  font-family: "Cairo Variable", sans-serif;
+  color: var(--base-content);
+  background-color: var(--base-100);
+  overflow-x: hidden;
+}
