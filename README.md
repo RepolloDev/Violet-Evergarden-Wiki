@@ -1,5 +1,5 @@
 <p align='center'>
-    <img alt='Violet Evergarden Wiki - FavIcon' src='./statuc/favicon.svg' width='100' height='100'/>
+    <img alt='Violet Evergarden Wiki - FavIcon' src='./static/favicon.svg' width='100' height='100'/>
 </p>
 <h1 align='center'>Violet Evergarden Wiki</h1>
 <p align='center'>
